@@ -3,6 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CIS3285_Unit3Sample_2024.Controllers
 {
+
+    // Changes for Sprint # -- User Story 1A -- Vincent Carlson
+// Changes Sprint 1 -- I want to create rooms for categorizing conversations
+
     public class RoomController : Controller
     {
         // GET: RoomController

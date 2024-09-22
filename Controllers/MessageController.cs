@@ -3,6 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CIS3285_Unit3Sample_2024.Controllers
 {
+    // Changes for Sprint #1 -- User Story 1B -- Vincent Carlson
+// Changes Sprint 1 --  I want to view a list of rooms that represent conversations.
+
     public class MessageController : Controller
     {
         // GET: MessageController
