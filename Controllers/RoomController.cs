@@ -18,6 +18,8 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: RoomController/Details/5
         public ActionResult Details(int id)
         {
+            // Changes for Sprint 1 -- User Story 1A -- Lonnie Golen
+            // Changes Sprint 1 -- I want to create rooms for categorizing conversations --Lonnie Golen
             return View();
         }
 
@@ -32,6 +34,8 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
         {
+            // Changes for Sprint 1 -- User Story 1A -- Lonnie Golen
+            // Changes Sprint 1 -- I want to create rooms for categorizing conversations --Lonnie Golen
             try
             {
                 return RedirectToAction(nameof(Index));
@@ -45,6 +49,8 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: RoomController/Edit/5
         public ActionResult Edit(int id)
         {
+            // Changes for Sprint 1 -- User Story 1A -- Lonnie Golen
+            // Changes Sprint 1 -- I want to create rooms for categorizing conversations --Lonnie Golen
             return View();
         }
 
@@ -66,6 +72,8 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: RoomController/Delete/5
         public ActionResult Delete(int id)
         {
+            // Changes for Sprint 1 -- User Story 1A -- Lonnie Golen
+            // Changes Sprint 1 -- I want to create rooms for categorizing conversations --Lonnie Golen
             return View();
         }
 

@@ -4,6 +4,8 @@
     {
         public RoomRecord(string name, int roomId)
         {
+            // Changes for Sprint 1 -- User Story 1A -- Lonnie Golen
+            // Changes Sprint 1 -- I want to create rooms for categorizing conversations --Lonnie Golen
             Name = name;
             RoomId1 = roomId;
         }
