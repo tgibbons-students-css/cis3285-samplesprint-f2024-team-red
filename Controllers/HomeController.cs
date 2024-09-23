@@ -8,6 +8,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
+        //Simba added comment: This is the HomeController method
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
